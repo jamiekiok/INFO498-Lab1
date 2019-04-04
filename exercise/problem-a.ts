@@ -3,13 +3,7 @@
 
 function hasPairSumToK(a: number[], k: number): boolean {
     
-    for (let num of a) {
-        let subtractedNum = k - num; 
-        if (a.includes(subtractedNum)) {
-            return true; 
-        }
-    }
-    return false;
+
 }
 
 
