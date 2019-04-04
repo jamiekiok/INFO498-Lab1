@@ -9,9 +9,7 @@ function hasPairSumToK(a: number[], k: number): boolean {
             return true; 
         }
     }
-
     return false;
-    
 }
 
 
